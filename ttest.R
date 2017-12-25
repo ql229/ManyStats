@@ -1,5 +1,5 @@
 ### ManyStats analysis
-## Why a new stat package : For running statistical analysis of larger projects where multiple groups needs to be compared and large number of plots and graphics needs to be created and exported.
+## Why a new stat package : For running statistical analysis of larger projects where multiple groups need to be compared and large number of plots and graphics needs to be created and exported.
 ## Author : Dinesh Kumar Barupal dinkumar@ucdavis.edu
 ## Lincense : CC-BY
 
