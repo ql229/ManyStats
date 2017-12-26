@@ -22,8 +22,20 @@ Step 3: Use the function :
 Call the functions using the files created in step 1-2. 
 
 
+# Installation and Usage Instructions
 
-
+if (!require("devtools"))
+install.packages('devtools', repos="http://cran.rstudio.com/")
+if (!require("opencpu"))
+install.packages('opencpu', repos="http://cran.rstudio.com/")
+if (!require("RCurl"))
+install.packages('RCurl', repos="http://cran.rstudio.com/")
+library(devtools)
+library(RCurl)
+source('https://bioconductor.org/biocLite.R')
+install_github('barupal/ManyStats')
+library(ManyStats)
+createCSVFiles("A metabolomics dataset")
 
 
 
