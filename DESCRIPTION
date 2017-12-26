@@ -1,11 +1,10 @@
 Package: ManyStats
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Statistics for complex projects
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Dinesh Barupal
+Maintainer: The package maintainer <dinkumar@ucdavis.edu>
+Description: For complex project with multiple groups, researchers need to write several lines of codes. This package provide wrapper functions to minimize the coding efforts. 
+License: CC-BY
 Encoding: UTF-8
 LazyData: true
