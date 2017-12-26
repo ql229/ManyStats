@@ -1,0 +1,13 @@
+Variable,GroupA,GroupB
+treatment,10mM Glucose,5mM Glucose
+treatment,10mM Glucose,5mM Glucose + 5mM Fructose
+treatment_time,10mM Glucosamine  - 0.17 hr ,10mM Glucose  - 0.17 hr
+treatment_time,10mM Glucose  - 0.17 hr,10mM Glucose  - 1 hr
+treatment_time,10mM Glucose  - 0.17 hr,10mM Glucose  - 24 hrs
+treatment_time,10mM Glucose  - 0.17 hr,10mM Glucose  - 6 hrs
+treatment_time,5mM Glucose  - 0.17 hr ,5mM Glucose  - 1 hr
+treatment_time,5mM Glucose  - 0.17 hr ,5mM Glucose  - 24 hrs
+treatment_time,5mM Glucose  - 0.17 hr ,5mM Glucose  - 6 hrs
+treatment_time,5mM Glucose + 5mM Fructose  - 0.17 hr,5mM Glucose + 5mM Fructose  - 1 hr
+treatment_time,5mM Glucose + 5mM Fructose  - 0.17 hr,5mM Glucose + 5mM Fructose  - 24 hrs
+treatment_time,5mM Glucose + 5mM Fructose  - 0.17 hr,5mM Glucose + 5mM Fructose  - 6 hrs

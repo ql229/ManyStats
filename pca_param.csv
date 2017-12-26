@@ -1,0 +1,3 @@
+index,groupsInclude,groupingVar,labelVar
+pca1,5mM Glucose;5mM Glucose + 5mM Fructose,treatment,time
+pca2,5mM Glucose;5mM Glucose + 5mM Fructose,treatment,file id
