@@ -46,6 +46,8 @@ install_github('barupal/ManyStats')
 
 library(ManyStats)
 
+pacman::p_load(gridExtra,ggplot2,officer,magrittr,rvg,flextable,ggplot2,plotly,ggpubr)
+
 createCSVFiles("A metabolomics dataset")
 
 
