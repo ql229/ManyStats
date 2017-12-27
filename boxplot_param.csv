@@ -1,0 +1,60 @@
+index,groupsInclude,groupingVar,colorVar,metabolite,label,colors
+bw1,10mM Glucose;5mM Glucose;5mM Glucose + 5mM Fructose,treatment,time,CPD021,tryptophan,red;green;blue;yellow
+bw2,10mM Glucose;5mM Glucose;5mM Glucose + 5mM Fructose,treatment,time,CPD022,trans-4-hydroxyproline,red;green;blue;yellow
+bw3,10mM Glucose;5mM Glucose;5mM Glucose + 5mM Fructose,treatment,time,CPD023,threonine,red;green;blue;yellow
+bw4,10mM Glucose;5mM Glucose;5mM Glucose + 5mM Fructose,treatment,time,CPD024,taurine,red;green;blue;yellow
+bw5,10mM Glucose;5mM Glucose;5mM Glucose + 5mM Fructose,treatment,time,CPD025,tagatose,red;green;blue;yellow
+bw6,10mM Glucose;5mM Glucose;5mM Glucose + 5mM Fructose,treatment,time,CPD026,sucrose,red;green;blue;yellow
+bw7,10mM Glucose;5mM Glucose;5mM Glucose + 5mM Fructose,treatment,time,CPD027,succinic acid,red;green;blue;yellow
+bw8,10mM Glucose;5mM Glucose;5mM Glucose + 5mM Fructose,treatment,time,CPD028,stearic acid,red;green;blue;yellow
+bw9,10mM Glucose;5mM Glucose;5mM Glucose + 5mM Fructose,treatment,time,CPD029,sorbitol,red;green;blue;yellow
+bw10,10mM Glucose;5mM Glucose;5mM Glucose + 5mM Fructose,treatment,time,CPD030,sophorose,red;green;blue;yellow
+bw11,10mM Glucose;5mM Glucose;5mM Glucose + 5mM Fructose,treatment,time,CPD031,serine,red;green;blue;yellow
+bw12,10mM Glucose;5mM Glucose;5mM Glucose + 5mM Fructose,treatment,time,CPD032,salicylaldehyde,red;green;blue;yellow
+bw13,10mM Glucose;5mM Glucose;5mM Glucose + 5mM Fructose,treatment,time,CPD033,saccharic acid,red;green;blue;yellow
+bw14,10mM Glucose;5mM Glucose;5mM Glucose + 5mM Fructose,treatment,time,CPD034,ribulose-5-phosphate,red;green;blue;yellow
+bw15,10mM Glucose;5mM Glucose;5mM Glucose + 5mM Fructose,treatment,time,CPD035,ribose-5-phosphate,red;green;blue;yellow
+bw16,10mM Glucose;5mM Glucose;5mM Glucose + 5mM Fructose,treatment,time,CPD036,ribose,red;green;blue;yellow
+bw17,10mM Glucose;5mM Glucose;5mM Glucose + 5mM Fructose,treatment,time,CPD037,ribitol,red;green;blue;yellow
+bw18,10mM Glucose;5mM Glucose;5mM Glucose + 5mM Fructose,treatment,time,CPD038,pyrophosphate,red;green;blue;yellow
+bw19,10mM Glucose;5mM Glucose;5mM Glucose + 5mM Fructose,treatment,time,CPD039,putrescine,red;green;blue;yellow
+bw20,10mM Glucose;5mM Glucose;5mM Glucose + 5mM Fructose,treatment,time,CPD040,"propane-1,3-diol NIST",red;green;blue;yellow
+bw21,10mM Glucose;5mM Glucose;5mM Glucose + 5mM Fructose,treatment,time,CPD041,proline,red;green;blue;yellow
+bw22,10mM Glucose;5mM Glucose;5mM Glucose + 5mM Fructose,treatment,time,CPD042,phosphoethanolamine,red;green;blue;yellow
+bw23,10mM Glucose;5mM Glucose;5mM Glucose + 5mM Fructose,treatment,time,CPD043,phosphoenolpyruvate,red;green;blue;yellow
+bw24,10mM Glucose;5mM Glucose;5mM Glucose + 5mM Fructose,treatment,time,CPD044,phosphate,red;green;blue;yellow
+bw25,10mM Glucose;5mM Glucose;5mM Glucose + 5mM Fructose,treatment,time,CPD045,phenylalanine,red;green;blue;yellow
+bw26,10mM Glucose;5mM Glucose;5mM Glucose + 5mM Fructose,treatment,time,CPD046,pentadecanoic acid,red;green;blue;yellow
+bw27,10mM Glucose;5mM Glucose;5mM Glucose + 5mM Fructose,treatment,time,CPD047,pelargonic acid,red;green;blue;yellow
+bw28,10mM Glucose;5mM Glucose;5mM Glucose + 5mM Fructose,treatment,time,CPD048,pantothenic acid,red;green;blue;yellow
+bw29,10mM Glucose;5mM Glucose;5mM Glucose + 5mM Fructose,treatment,time,CPD049,palmitoleic acid,red;green;blue;yellow
+bw30,10mM Glucose;5mM Glucose;5mM Glucose + 5mM Fructose,treatment,time,CPD050,palmitic acid,red;green;blue;yellow
+bw31,10mM Glucose;5mM Glucose;5mM Glucose + 5mM Fructose,treatment,time,CPD051,oxoproline,red;green;blue;yellow
+bw32,10mM Glucose;5mM Glucose;5mM Glucose + 5mM Fructose,treatment,time,CPD052,ornithine,red;green;blue;yellow
+bw33,10mM Glucose;5mM Glucose;5mM Glucose + 5mM Fructose,treatment,time,CPD053,oleic acid,red;green;blue;yellow
+bw34,10mM Glucose;5mM Glucose;5mM Glucose + 5mM Fructose,treatment,time,CPD054,oleamide NIST,red;green;blue;yellow
+bw35,10mM Glucose;5mM Glucose;5mM Glucose + 5mM Fructose,treatment,time,CPD055,octanol NIST,red;green;blue;yellow
+bw36,10mM Glucose;5mM Glucose;5mM Glucose + 5mM Fructose,treatment,time,CPD056,octadecanol,red;green;blue;yellow
+bw37,10mM Glucose;5mM Glucose;5mM Glucose + 5mM Fructose,treatment,time,CPD057,N-methylalanine,red;green;blue;yellow
+bw38,10mM Glucose;5mM Glucose;5mM Glucose + 5mM Fructose,treatment,time,CPD058,N-acetylgalactosamine,red;green;blue;yellow
+bw39,10mM Glucose;5mM Glucose;5mM Glucose + 5mM Fructose,treatment,time,CPD059,N-acetylaspartic acid,red;green;blue;yellow
+bw40,10mM Glucose;5mM Glucose;5mM Glucose + 5mM Fructose,treatment,time,CPD060,myristic acid,red;green;blue;yellow
+bw41,10mM Glucose;5mM Glucose;5mM Glucose + 5mM Fructose,treatment,time,CPD061,myo-inositol,red;green;blue;yellow
+bw42,10mM Glucose;5mM Glucose;5mM Glucose + 5mM Fructose,treatment,time,CPD062,methionine,red;green;blue;yellow
+bw43,10mM Glucose;5mM Glucose;5mM Glucose + 5mM Fructose,treatment,time,CPD063,methanolphosphate,red;green;blue;yellow
+bw44,10mM Glucose;5mM Glucose;5mM Glucose + 5mM Fructose,treatment,time,CPD064,malic acid,red;green;blue;yellow
+bw45,10mM Glucose;5mM Glucose;5mM Glucose + 5mM Fructose,treatment,time,CPD065,lysine,red;green;blue;yellow
+bw46,10mM Glucose;5mM Glucose;5mM Glucose + 5mM Fructose,treatment,time,CPD066,leucine,red;green;blue;yellow
+bw47,10mM Glucose;5mM Glucose;5mM Glucose + 5mM Fructose,treatment,time,CPD067,lauric acid,red;green;blue;yellow
+bw48,10mM Glucose;5mM Glucose;5mM Glucose + 5mM Fructose,treatment,time,CPD068,lactic acid,red;green;blue;yellow
+bw49,10mM Glucose;5mM Glucose;5mM Glucose + 5mM Fructose,treatment,time,CPD069,isothreonic acid,red;green;blue;yellow
+bw50,10mM Glucose;5mM Glucose;5mM Glucose + 5mM Fructose,treatment,time,CPD070,isoleucine,red;green;blue;yellow
+bw51,10mM Glucose;5mM Glucose;5mM Glucose + 5mM Fructose,treatment,time,CPD071,inositol-4-monophosphate,red;green;blue;yellow
+bw52,10mM Glucose;5mM Glucose;5mM Glucose + 5mM Fructose,treatment,time,CPD072,hydroxylamine,red;green;blue;yellow
+bw53,10mM Glucose;5mM Glucose;5mM Glucose + 5mM Fructose,treatment,time,CPD073,hydroquinone,red;green;blue;yellow
+bw54,10mM Glucose;5mM Glucose;5mM Glucose + 5mM Fructose,treatment,time,CPD074,homoserine,red;green;blue;yellow
+bw55,10mM Glucose;5mM Glucose;5mM Glucose + 5mM Fructose,treatment,time,CPD075,hexose-6-phosphate,red;green;blue;yellow
+bw56,10mM Glucose;5mM Glucose;5mM Glucose + 5mM Fructose,treatment,time,CPD076,hexitol,red;green;blue;yellow
+bw57,10mM Glucose;5mM Glucose;5mM Glucose + 5mM Fructose,treatment,time,CPD077,heptadecanoic acid,red;green;blue;yellow
+bw58,10mM Glucose;5mM Glucose;5mM Glucose + 5mM Fructose,treatment,time,CPD078,glycolic acid,red;green;blue;yellow
+bw59,10mM Glucose;5mM Glucose;5mM Glucose + 5mM Fructose,treatment,time,CPD079,glycine,red;green;blue;yellow

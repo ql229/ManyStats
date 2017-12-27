@@ -58,7 +58,7 @@ calculate.ttests <- function(
   ndf <- read.csv(file = numericData, stringsAsFactors = F,header = F)
   cdf <- read.csv(file = cpdInfo, stringsAsFactors = F,check.names = F)
   sdf <- read.csv(file = sampleInfo, stringsAsFactors = F,check.names = F)
-  tgroups <- read.csv(file = ttestgroups, stringsAsFactors = F, header = F)
+  tgroups <- read.csv(file = ttestgroups, stringsAsFactors = F, header = T)
 
   if(nrow(sdf)!=ncol(ndf)) { stop("Sample metadata file or data matrix is not complete.")   }
 
