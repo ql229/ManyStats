@@ -24,33 +24,35 @@ Call the functions using the files created in step 1-2.
 
 # Installation and Usage Instructions
 
-if (!require("devtools"))
+Run below commands in the R-console. It will installed the required packages and files. 
 
+```
+if (!require("devtools"))
 install.packages('devtools', repos="http://cran.rstudio.com/")
 
-if (!require("opencpu"))
-
-install.packages('opencpu', repos="http://cran.rstudio.com/")
-
 if (!require("RCurl"))
-
 install.packages('RCurl', repos="http://cran.rstudio.com/")
 
+if (!require("opencpu"))
+install.packages('opencpu', repos="http://cran.rstudio.com/")
+
+
+if (!require("pacman"))
+install.packages('pacman', repos="http://cran.rstudio.com/")
+
 library(devtools)
-
 library(RCurl)
+library(pcaman)
 
-source('https://bioconductor.org/biocLite.R')
+pacman::p_load(gridExtra,ggplot2,officer,magrittr,rvg,flextable,ggplot2,plotly,ggpubr,openxlsx,installr)
+installr::install.Rtools()
 
 install_github('barupal/ManyStats')
-
 library(ManyStats)
 
-pacman::p_load(gridExtra,ggplot2,officer,magrittr,rvg,flextable,ggplot2,plotly,ggpubr,openxlsx)
+#createCSVFiles("A metabolomics dataset")
 
-createCSVFiles("A metabolomics dataset")
-
-
+```
 
 
 
