@@ -8,15 +8,15 @@
 ################################################
 
 
-createVolcanoLogit(
+createVolcanoLogit <- function(
   inputData = "ADNI_Diag_lipidomics_logistic_model_final.txt",
   pvalueCut = 0.05, ## This will draw a horizontal line on the vlocano plot
   fdrCutff = 0.20, # This will draw another line
   betacutoff = 0.2, # vertical lines for the eta
   labelOnly = 5, # only the top 5% significany compounds will be labeled.
   labalVar = "Compound.Name",
-  interactive =TRUE # if true an interactive plot using ggplotly will be exported.
-){
+  interactive = TRUE # if true an interactive plot using ggplotly will be exported.
+) {
   stat_res <- read.delim(inputData, header = T, stringsAsFactors = F)
 
   ## get the value locations.
@@ -92,7 +92,7 @@ createVolcanoLogit(
 ################################################
 
 
-createVolcano.ttest(
+createVolcano.ttest <- function(
   inputData = "ADNI_Diag_lipidomics_logistic_model_final.txt",
   pvalueCut = 0.05, ## This will draw a horizontal line on the vlocano plot
   fdrCutff = 0.20, # This will draw another line

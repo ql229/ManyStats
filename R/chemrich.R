@@ -9,7 +9,7 @@
 
 calculateChemRICHlogit <- function (
   statres = "adni_logit_result.csv",
-  classinfo = "adni_lipid_clusters.csv",
+  classinfo = "adni_lipid_clusters.csv"
 ) {
 
   stat_res <- read.csv(file = statres, stringsAsFactors = F,header = T)
@@ -144,7 +144,7 @@ calculateChemRICHlogit <- function (
 
 calculateChemRICHttest <- function (
   statres = "ttest_results",
-  classinfo = "compound_clusterinfo.csv",
+  classinfo = "compound_clusterinfo.csv"
 ) {
 
   stat_res <- read.csv(file = statres, stringsAsFactors = F,header = T)
