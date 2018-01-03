@@ -21,7 +21,6 @@ Step 3: Use the function :
 
 Call the functions using the files created in step 1-2. 
 
-
 # Installation and Usage Instructions
 
 Run below commands in the R-console. It will installed the required packages and files. 
@@ -36,20 +35,19 @@ install.packages('RCurl', repos="http://cran.rstudio.com/")
 if (!require("opencpu"))
 install.packages('opencpu', repos="http://cran.rstudio.com/")
 
-
 if (!require("pacman"))
 install.packages('pacman', repos="http://cran.rstudio.com/")
 
 library(devtools)
 library(RCurl)
-library(pcaman)
+library(pacman)
 
 pacman::p_load(gridExtra,ggplot2,officer,magrittr,rvg,flextable,ggplot2,plotly,ggpubr,openxlsx,installr)
+
 installr::install.Rtools()
 
 install_github('barupal/ManyStats')
 library(ManyStats)
-
 #createCSVFiles("A metabolomics dataset")
 
 ```
