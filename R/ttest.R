@@ -5,7 +5,7 @@
 
 ## Student TTest for multiple groups.
 
-
+## roxygen parameters.
 #' Calcualte multiple t-tests
 #'
 #' @param numericData an metabolomics dataset
@@ -14,13 +14,21 @@
 #' @param ttestgroups ttest parameter file
 #' @return student t-test result in an excel sheet - Student_t_test_results.xlsx
 #' @examples
-#' calculate.ttests(numericData = "data_matrix.csv", sampleInfo ="sample_metadata.csv", cpdInfo="data_dictionary.csv", ttestgroups="ttest_param.csv")
+#' calculate.ttests(numericData = system.file("/inst/Examples", "data_matrix.csv", package="ManyStats"), sampleInfo =system.file("/inst/Examples", "sample_metadata.csv", package="ManyStats"), cpdInfo=system.file("/inst/Examples", "data_dictionary.csv", package="ManyStats"), ttestgroups=system.file("/inst/Examples", "ttest_param.csv", package="ManyStats"))
+#'
+#'
+#'
+#'
+#'
 
 calculate.ttests <- function(
   numericData = "",
   sampleInfo ="",
   cpdInfo="",
   ttestgroups="" ) {
+
+  pacman::p_load(gridExtra,ggplot2,officer,magrittr,rvg,flextable,ggplot2,plotly,ggpubr,openxlsx,installr)
+
   ndf <- read.csv(file = numericData, stringsAsFactors = F,header = F)
   cdf <- read.csv(file = cpdInfo, stringsAsFactors = F,check.names = F)
   sdf <- read.csv(file = sampleInfo, stringsAsFactors = F,check.names = F)
@@ -97,6 +105,6 @@ calculate.ttests <- function(
 #   cpdInfo="data_dictionary.csv",
 #   ttestgroups="ttest_param.csv"
 # )
-
+calculate.ttests(numericData = system.file("Examples", "data_matrix.csv", package="ManyStats"), sampleInfo =system.file("Examples", "sample_metadata.csv", package="ManyStats"), cpdInfo=system.file("Examples", "data_dictionary.csv", package="ManyStats"), ttestgroups=system.file("Examples", "ttest_param.csv", package="ManyStats"))
 
 
