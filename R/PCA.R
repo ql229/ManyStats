@@ -109,11 +109,10 @@ calculatePCAs <- function (
 
 ###############
 ## PCA usage. #
-###############
-
-calculatePCAs(
-  numericData = "data_matrix.csv",
-  sampleInfo ="sample_metadata.csv",
-  cpdInfo="data_dictionary.csv",
-  pcaParam ="pca_param.csv" # PCA parameters file.
-)
+#
+# calculatePCAs(
+#   numericData = "data_matrix.csv",
+#   sampleInfo ="sample_metadata.csv",
+#   cpdInfo="data_dictionary.csv",
+#   pcaParam ="pca_param.csv" # PCA parameters file.
+# )
