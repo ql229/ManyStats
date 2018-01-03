@@ -8,3 +8,4 @@ Description: For complex project with multiple groups, researchers need to write
 License: CC-BY
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 6.0.1

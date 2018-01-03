@@ -5,6 +5,17 @@
 
 ## Student TTest for multiple groups.
 
+
+#' Calcualte multiple t-tests
+#'
+#' @param numericData an metabolomics dataset
+#' @param sampleInfo sample metadata file
+#' @param cpdInfo compound data dictionary
+#' @param ttestgroups ttest parameter file
+#' @return student t-test result in an excel sheet - Student_t_test_results.xlsx
+#' @examples
+#' calculate.ttests(numericData = "data_matrix.csv", sampleInfo ="sample_metadata.csv", cpdInfo="data_dictionary.csv", ttestgroups="ttest_param.csv")
+
 calculate.ttests <- function(
   numericData = "",
   sampleInfo ="",
