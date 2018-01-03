@@ -44,7 +44,7 @@ library(devtools)
 library(RCurl)
 library(pacman)
 
-pacman::p_load(htmlwidgets,DT,RCurl,RJSONIO,ape,devEMF,dynamicTreeCut,extrafont,flextable,ggplot2,ggpubr,ggrepel,grid,gridExtra,installr,magrittr,officer,openxlsx,phytools,plotly,plotrix,rvg)
+pacman::p_load(htmlwidgets,DT,RCurl,RJSONIO,ape,devEMF,dynamicTreeCut,extrafont,flextable,ggplot2,ggpubr,ggrepel,grid,gridExtra,installr,magrittr,officer,openxlsx,phytools,plotly,plotrix,rvg,mixOmics)
 
 installr::install.Rtools()
 
@@ -71,7 +71,7 @@ Now create a new R-script file and save it as "ManyStats.R". You will type all t
 In the script file type this command - 
 
 ```
-pacman::p_load(htmlwidgets,DT,RCurl,RJSONIO,ape,devEMF,dynamicTreeCut,extrafont,flextable,ggplot2,ggpubr,ggrepel,grid,gridExtra,installr,magrittr,officer,openxlsx,phytools,plotly,plotrix,rvg) 
+pacman::p_load(htmlwidgets,DT,RCurl,RJSONIO,ape,devEMF,dynamicTreeCut,extrafont,flextable,ggplot2,ggpubr,ggrepel,grid,gridExtra,installr,magrittr,officer,openxlsx,phytools,plotly,plotrix,rvg,mixOmics) 
 library(ManyStats)
 ```
 It will load all the necessary packages that you will need to run the ManyStats functions. 
