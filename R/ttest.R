@@ -14,7 +14,7 @@
 #' @param ttestgroups ttest parameter file
 #' @return student t-test result in an excel sheet - Student_t_test_results.xlsx
 #' @examples
-#' calculate.ttests(numericData = system.file("/inst/Examples", "data_matrix.csv", package="ManyStats"), sampleInfo =system.file("/inst/Examples", "sample_metadata.csv", package="ManyStats"), cpdInfo=system.file("/inst/Examples", "data_dictionary.csv", package="ManyStats"), ttestgroups=system.file("/inst/Examples", "ttest_param.csv", package="ManyStats"))
+#'  calculate.ttests(numericData = system.file("Examples", "data_matrix.csv", package="ManyStats"), sampleInfo =system.file("Examples", "sample_metadata.csv", package="ManyStats"), cpdInfo=system.file("Examples", "data_dictionary.csv", package="ManyStats"), ttestgroups=system.file("Examples", "ttest_param.csv", package="ManyStats"))
 #'
 #'
 #'
@@ -105,6 +105,6 @@ calculate.ttests <- function(
 #   cpdInfo="data_dictionary.csv",
 #   ttestgroups="ttest_param.csv"
 # )
-calculate.ttests(numericData = system.file("Examples", "data_matrix.csv", package="ManyStats"), sampleInfo =system.file("Examples", "sample_metadata.csv", package="ManyStats"), cpdInfo=system.file("Examples", "data_dictionary.csv", package="ManyStats"), ttestgroups=system.file("Examples", "ttest_param.csv", package="ManyStats"))
+#calculate.ttests(numericData = system.file("Examples", "data_matrix.csv", package="ManyStats"), sampleInfo =system.file("Examples", "sample_metadata.csv", package="ManyStats"), cpdInfo=system.file("Examples", "data_dictionary.csv", package="ManyStats"), ttestgroups=system.file("Examples", "ttest_param.csv", package="ManyStats"))
 
 

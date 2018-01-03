@@ -12,7 +12,6 @@ calculatePCAs <- function (
   sampleInfo ="sample_metadata.csv",
   cpdInfo="data_dictionary.csv",
   pcaParam ="pca_param.csv" # PCA parameters file.
-
 ){
 
   ndf <- read.csv(file = numericData, stringsAsFactors = F,header = F)
@@ -30,9 +29,12 @@ calculatePCAs <- function (
     sdf1 <- sdf [sdf[pca.param$groupingVar[i]][,1]%in%strsplit(pca.param$groupsInclude[i],";")[[1]],]
 
     lvar <- ""
-    tryCatch(lvar <- sdf1[pca.param$labelVar[i]][,1], error=function(e) {
-      stop("Sample label not provided in the PCA param file")
-    })
+
+    if(pca.param$labelVar[i]!=""){
+      tryCatch(lvar <- sdf1[pca.param$labelVar[i]][,1], error=function(e) {
+        stop("Sample label not provided in the PCA param file")
+      })
+    }
 
     cvar <- "black"      # color
     tryCatch(cvar <- sdf1[pca.param$groupingVar[i]][,1], error=function(e) {
@@ -63,10 +65,13 @@ calculatePCAs <- function (
     data_bw$PC1 <- as.numeric(pc_scores[,1])
     data_bw$PC2 <- as.numeric(pc_scores[,2])
 
+    library(ggplot2)
+
     f2 <- ggplot(data_bw, aes(PC2,PC1, label=snames)) +
       scale_y_continuous(paste("PC2 - variance explained : ",signif(pca.res$explained_variance[2],digit=4)," ",sep="")) +
       scale_x_continuous(paste("PC1 - variance explained : ",signif(pca.res$explained_variance[1],digit=4)," ",sep="")) +
       theme_bw() +
+      guides(size=FALSE)+
       labs(title = "Principal component analysis (PCA)") +
       theme(
         plot.title = element_text(face="bold", size=20),
@@ -90,10 +95,15 @@ calculatePCAs <- function (
 
     ## Export PCA slides
 
+    library(officer)
+    library(magrittr)
+    library(rvg)
+
     read_pptx() %>% add_slide(layout = "Title and Content", master = "Office Theme") %>%
       ph_with_vg(code = print(f4), type = "body", width = 7,height = 7, offx = 2, offy = .3) %>%
       print(target = paste0(pca.param[i,1],".pptx")) %>%
       invisible()
+    print(paste0(pca.param[i,1],".pptx created"))
   }
 }
 
@@ -101,9 +111,9 @@ calculatePCAs <- function (
 ## PCA usage. #
 ###############
 
-# calculatePCAs(
-#   numericData = "data_matrix.csv",
-#   sampleInfo ="sample_metadata.csv",
-#   cpdInfo="data_dictionary.csv",
-#   pcaParam ="pca_param.csv" # PCA parameters file.
-# )
+calculatePCAs(
+  numericData = "data_matrix.csv",
+  sampleInfo ="sample_metadata.csv",
+  cpdInfo="data_dictionary.csv",
+  pcaParam ="pca_param.csv" # PCA parameters file.
+)
