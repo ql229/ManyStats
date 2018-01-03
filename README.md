@@ -57,7 +57,7 @@ library(ManyStats)
 For better organization and efficiency, create a new RStudio project. To create a new project, click on the File--> New project and then give it a name eg Study1 or whatever you like. By default R-Projects are save in your home directory which in "My Documents" for Windows. This will create a folder eg Study1 in your home directory. 
 
 To know how to setup a new RStudio project - watch this youtube video. 
-How to setup a new RStudio project[www.Youtube.com]
+[How to setup a new RStudio project](https://www.youtube.com/watch?v=DeUsuMFWmP4&index=2&list=PL3GsOPLfOm7W-j-wswddfoCf2KH5kOSon)
 
 # Step 2. Move the metabolomcis dataset to the rproject folder. 
 
