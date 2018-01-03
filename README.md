@@ -15,7 +15,7 @@ c. Data dictionary
 
 Step 2: Prepare the parameters file :
 
-For each statistical test, an user need to create a parameter file in excel which will be used by Many Stats functions. The file will be in CSV format and can also be generated automatically. 
+For each statistical test, an user need to create a parameter file in excel which will be used by ManyStats functions. The file will be in CSV format and can also be generated automatically. 
 
 Step 3: Use the function :
 
