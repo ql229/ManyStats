@@ -1,9 +1,9 @@
 # ManyStats
-Power functions for calculating statistics/graphics for complex metabolomics projects with several experimental groups
+Handy functions for calculating statistics/graphics for complex metabolomics projects with several experimental groups
 
 Several metabolomics projects can have a complex design with several experimental groups. Performing statistical analyses for those projects using online statistical tools such as metaboanalyst is tedious. 
 
-ManyStats has some power functions (mostly wrappers) for doing statistics for those complex projects. 
+ManyStats has some handy functions (mostly wrappers) for doing statistics for those complex projects. 
 
 Step 1 : Prepare the inputs
 
