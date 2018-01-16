@@ -1,7 +1,7 @@
 # ManyStats
 Handy functions for calculating statistics/graphics for complex metabolomics projects with several experimental groups
 
-Several metabolomics projects can have a complex design with several experimental groups. Performing statistical analyses for those projects using online statistical tools such as metaboanalyst is tedious. 
+Many metabolomics projects can have a complex design with several experimental groups. Performing statistical analyses for those projects using online statistical tools such as metaboanalyst is tedious. 
 
 ManyStats has some handy functions (mostly wrappers) for doing statistics for those complex projects. 
 
@@ -25,7 +25,7 @@ Call the functions using the files created in step 1-2.
 
 # R version must be 3.4.3 or latest.
 
-Run below commands in the R-console. It will installed the required packages and files. 
+Run below commands in the R-console. It will install the required packages and files. 
 
 ```
 if (!require("devtools"))
@@ -68,12 +68,15 @@ Now create a new R-script file and save it as "ManyStats.R". You will type all t
 
 # Step 4. Load the ManyStats package.
 
-In the script file type this command - 
+In the script file copy/paste this command - 
 
 ```
 pacman::p_load(htmlwidgets,DT,RCurl,RJSONIO,ape,devEMF,dynamicTreeCut,extrafont,flextable,ggplot2,ggpubr,ggrepel,grid,gridExtra,installr,magrittr,officer,openxlsx,phytools,plotly,plotrix,rvg,mixOmics) 
 library(ManyStats)
 ```
+
+Then select and click on run or press Ctrl+enter to execute it. 
+
 It will load all the necessary packages that you will need to run the ManyStats functions. 
 
 # Step 5. Generating the CSV files. 
