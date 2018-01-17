@@ -113,24 +113,24 @@ calculate.ttests(
 Here is the list of statistical methods that are being included in ManyStats
 
 # Simple statistics 
-Student t-test
-Mann-whitney test
-One-way ANOVA
-Kruskal-walis
-Two way repeated-measure ANOVA
-Friedman.test 
+*Student t-test
+*Mann-whitney test
+*One-way ANOVA
+*Kruskal-walis
+*Two way repeated-measure ANOVA
+*Friedman.test 
 
 # Multi-variate statistics
 PCA, PLS-DA, t-SNE, HCL
 
 # Epidemiological statistics 
-Logistic regression
-Linear regression
-Cox proportional hazard regression
-Conditional logistic regression
-Mixed-effect models
+*Logistic regression
+*Linear regression
+*Cox proportional hazard regression
+*Conditional logistic regression
+*Mixed-effect models
 
 # Graphics 
-Box-whisker plots
-Volcano plots
+*Box-whisker plots
+*Volcano plots
 
