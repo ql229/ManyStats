@@ -95,7 +95,7 @@ in the project directory. You will use all these files as input for ManyStats fu
 
 # Step 6. Calculating Statistics
 
-# For example calculate student t-tests
+For example calculate student t-tests
 
 To calculate t-tests for your study, you need to prepare a t-test parameter file ttest_param.csv. 
 Watch this video on how to prepare this file for your project. 
