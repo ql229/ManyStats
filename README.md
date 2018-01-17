@@ -113,6 +113,7 @@ calculate.ttests(
 Here is the list of statistical methods that are being included in ManyStats
 
 # Simple statistics 
+
 *Student t-test
 *Mann-whitney test
 *One-way ANOVA
@@ -124,6 +125,7 @@ Here is the list of statistical methods that are being included in ManyStats
 PCA, PLS-DA, t-SNE, HCL
 
 # Epidemiological statistics 
+
 *Logistic regression
 *Linear regression
 *Cox proportional hazard regression
@@ -131,6 +133,7 @@ PCA, PLS-DA, t-SNE, HCL
 *Mixed-effect models
 
 # Graphics 
+
 *Box-whisker plots
 *Volcano plots
 
