@@ -95,7 +95,7 @@ in the project directory. You will use all these files as input for ManyStats fu
 
 # Step 6. Calculating Statistics
 
-# Calculate t-tests
+# For example calculate student t-tests
 
 To calculate t-tests for your study, you need to prepare a t-test parameter file ttest_param.csv. 
 Watch this video on how to prepare this file for your project. 
@@ -110,13 +110,27 @@ calculate.ttests(
 
 ```
 
+Here is the list of statistical methods that are being included in ManyStats
 
+# Simple statistics 
+Student t-test
+Mann-whitney test
+One-way ANOVA
+Kruskal-walis
+Two way repeated-measure ANOVA
+Friedman.test 
 
+# Multi-variate statistics
+PCA, PLS-DA, t-SNE, HCL
 
+# Epidemiological statistics 
+Logistic regression
+Linear regression
+Cox proportional hazard regression
+Conditional logistic regression
+Mixed-effect models
 
-
-
-
-
-
+# Graphics 
+Box-whisker plots
+Volcano plots
 
